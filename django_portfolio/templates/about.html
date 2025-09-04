@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>About Me</title>
-  </head>
-  <body>
-    <h1>About Me</h1>
-    <p>This is the about page for my portfolio website.</p>
-    <a href="/">Back to Home</a>
-  </body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}About Me{% endblock %}
+
+{% block content %}
+<h1>About Me</h1>
+<p>This is the about page for my portfolio website.</p>
+{% endblock %}

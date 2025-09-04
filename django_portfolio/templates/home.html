@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <h1>Welcome to my portfolio!</h1>
-    <p>Today's date: {{ today }}</p>
-  </body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<p>Today's date: {{ today }}</p>
+{% endblock %}
